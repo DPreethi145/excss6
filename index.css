@@ -1,0 +1,42 @@
+.box1{
+    border:3px solid red;
+    height:200px;
+    width:200px;
+    box-shadow: 5px 5px 5px 15px silver;
+    background-color: gold;
+    
+}
+
+.text{
+    text-shadow:3px 3px 5px red;
+   
+}
+.box2{
+    height:200px;
+    width:200px;
+    background-image: radial-gradient(green,yellow);
+    transition:width 2s ease-out;
+}
+.box2:hover{
+    width:500px;
+}
+.box3{
+    height:200px;
+    width:200px;
+    background-image: radial-gradient(rgb(128, 0, 96),rgb(111, 0, 255));
+    transition: transform 1s;
+}
+.box3:hover{
+    transform: rotate(360deg);
+}
+.box4{
+    height:200px;
+    width:200px;
+    background-image: radial-gradient(rgb(128, 0, 96),rgb(0, 217, 255));
+    transition: transform 1s;
+ 
+}
+.box4:hover{
+    transform: translateX(500px);
+    cursor: pointer;
+}
